@@ -1,0 +1,64 @@
+
+
+
+body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 0.5rem 3rem;
+}
+footer{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 5rem;
+    padding: 0.5rem 3rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+table {
+    margin: auto;
+    width: auto;
+    border-collapse: collapse;
+    align-self: center;
+    text-align: center;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+#hor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+}
